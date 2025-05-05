@@ -1,0 +1,26 @@
+MAIN (write sudo in terminal)
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+
+
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/arpan031/Arpan_031_EC2.git (nijer link)
+cd Arpan_031_EC2 (nijer directory)
+npm install
+node index.js
+
